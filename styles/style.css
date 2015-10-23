@@ -1,4 +1,4 @@
-.highlight {
+/* .highlight {
   color:orange
 }
 
@@ -20,8 +20,38 @@ aside.highlight {
 a:hover {
     color:red;
     font-size: 2em;
+} */
+    
+
+    
+
+
+h1:hover {
+    color: aqua;
 }
-    
 
-    
+a:visited {
+    text-decoration: none;
+}
 
+header {
+    width: 50%;
+    margin: auto;
+    text-align: left;
+}
+
+article {
+    width: 30%;
+    margin: auto;
+    text-align: left;
+}
+
+article p::first-letter {
+      font-size: 10.5em;
+}
+
+footer {
+    border: 2px dashed black;
+    border-radius: 25px;
+    padding: inherit;
+}
